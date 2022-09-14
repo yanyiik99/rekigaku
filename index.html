@@ -58,16 +58,16 @@
   <!-- Start Banner -->
   <section id="banner" class="mt-5 pt-4">
     <div class="bg-banner"></div>
-    <div class="container m-auto d-flex row justify-content-between mt-5 pt-5">
-      <div class="banner-left col-6  d-flex align-items-center justify-content-between">
-        <div>
+    <div class="container m-auto d-flex flex-column flex-md-row row justify-content-end  justify-content-md-between mt-5 pt-5">
+      <div class="banner-left col-12 col-md-6  d-flex align-items-center justify-content-between">
+        <div class="d-none d-md-block">
           <img class="d-block" src="src/img/landing/welcome.svg" alt="">
         </div>
         <div>
-          <img class="d-block" src="./src/img/landing/ilus-banner.svg" alt=""> <!-- Freepik -->
+          <img class="d-block img-fluid" src="./src/img/landing/ilus-banner.svg" alt=""> <!-- Freepik -->
         </div>
       </div>
-      <div class="banner-right col-6 ps-5 text-white">
+      <div class="banner-right col-12 col-md-6 ps-5 text-white">
         <h1 class="fw-bolder"><span>Rekigaku</span> solusi efisien untuk membantu Anda berobat</h1>
         <p>Terhubung secara langsung dengan tenaga medis dan rumah sakit </p>
         <div class="btn-get d-flex justify-content-start align-items-center">
@@ -110,13 +110,13 @@
   <!-- Start Service -->
   <section id="service">
     <div class="container mt-5">
-      <div class="head-service row d-flex">
-        <div class="left-head-service col-6">
+      <div class="head-service row d-block d-md-flex">
+        <div class="left-head-service col-12 col-md-6">
           <span>OUR SERVICES</span>
           <h3 class="fw-bold">Fitur unggulan kami untuk melayani pasien</h3>
         </div>
-        <div class="right-head-service d-flex align-items-center col-6">
-          <div class="btn-service d-flex justify-content-end align-items-center">
+        <div class="right-head-service d-flex align-items-center col-12 col-md-6 mt-5 mt-md-0">
+          <div class="btn-service d-flex justify-content-start justify-content-md-end align-items-center">
             <button class="align-self-center fw-bold">
               <a href="./components/SignUp/SignUp.html">
                 Create Appoinment
@@ -125,8 +125,8 @@
           </div>
         </div>
       </div>
-      <div class="card-service d-flex justify-content-around mt-5 pt-5">
-        <div class="card card-schedule" style="width: 18rem;">
+      <div class="card-service d-flex flex-column flex-md-row justify-content-center align-items-center justify-content-md-around mt-5 pt-5">
+        <div class="card card-schedule mt-4" style="width: 18rem;">
           <div class="card-icon">
             <i class="fa-solid fa-calendar-days text-white fs-2"></i>
             <!-- <i class="fa-solid fa-user-doctor text-white fs-2"></i> -->
@@ -141,7 +141,7 @@
             </div>
           </div>
         </div>
-        <div class="card card-riwayatku" style="width: 18rem;">
+        <div class="card card-riwayatku mt-4" style="width: 18rem;">
           <div class="card-icon">
             <!-- <i class="fa-solid fa-user-doctor text-white fs-2"></i> -->
             <i class="fa-solid fa-briefcase-medical fs-2"></i>
@@ -156,7 +156,7 @@
             </div>
           </div>
         </div>
-        <div class="card card-dokterku" style="width: 18rem;">
+        <div class="card card-dokterku mt-4" style="width: 18rem;">
           <div class="card-icon">
             <i class="fa-solid fa-user-doctor text-white fs-2"></i>
           </div>
@@ -193,12 +193,12 @@
 
   <!-- Start About  -->
   <section id="about" class="my-5 py-5">
-    <div class="container about-wrap mt-5 pt-5 d-flex row align-items-center justify-content-center">
-      <div class="about-left col-4 ps-5">
+    <div class="container row about-wrap mt-5 pt-5 d-flex flex-column flex-md-row align-items-center justify-content-center">
+      <div class="about-left col-12 col-md-4 ps-5">
         <h2>Ingin tetap sehat tanpa ribet ?</h2>
       </div>
-      <div class="col-1"></div>
-      <div class="about-right col-7 px-5">
+      <div class="col-0 col-md-1"></div>
+      <div class="about-right col-12 col-md-7 px-5">
         <p>Rekigaku merupakan sebuah platform pihak ketiga yang menghubungkan antara pasien dan juga pihak rumah sakit.</p>
         <div class="btn-get d-flex justify-content-start align-items-center mt-5">
             <button class="align-self-center fw-bold">
@@ -214,25 +214,25 @@
 
   <!-- Start Footer -->
   <section id="footer" class="mt-5 py-5 bg-white shadow-lg">
-    <div class="container d-flex justify-content-center align-items-start py-5 ">
-      <div class="one col-4 align-self-center">
+    <div class="container d-flex flex-column flex-md-row justify-content-center align-items-center align-items-md-start py-5 ">
+      <div class="one col-12 col-md-4 align-self-center">
         <p class="fw-semibold px-5">Menjadi wadah untuk pasien yang tidak ingin ribet ketika melakukan pengobatan ke rumah sakit </p>
       </div>
-      <div class="two col-2">
+      <div class="two col-12 col-md-2">
         <p class="fw-bold">Quick Links</p>
         <span class="d-block p-2">Connecting</span>
         <span class="d-block p-2">About Us</span>
         <span class="d-block p-2">Community</span>
         <span class="d-block p-2">Reviewer</span>
       </div>
-      <div class="three col-2">
+      <div class="three col-12 col-md-2">
         <p class="fw-bold">Information</p>
         <span class="d-block p-2">FAQ</span>
         <span class="d-block p-2">Term and Condition</span>
         <span class="d-block p-2">Privacy Policy</span>
         <span class="d-block p-2">Support</span>
       </div>
-      <div class="four col-4 ">
+      <div class="four col-12 col-md-4 ">
         <p class="fw-bold">Social Media</p>
         <span class="d-block py-4">Connect with us to get the newest update</span>
         <span><img class="img-fluid mx-2" src="./src/img/logo/fb.png" alt=""></span>

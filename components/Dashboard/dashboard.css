@@ -630,6 +630,28 @@ body.dark .dropdown-menu li a:hover {
         min-height: 300px ;
     }
 
+    
+    .dash-content .boxes{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .dash-content .boxes .box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 6px;
+        width: 100%;
+        padding: 0px !important;
+        background-color: var(--panel-color);
+        transition: var(--tran-05);
+        box-shadow: 0 4px 10px  var(--box1-shadow)
+    }
+
+
 }
 
 

@@ -204,7 +204,7 @@
 .about-wrap {
   width: 80%;
   height: 400px;
- background: linear-gradient(76.59deg, #84D3F4 1.49%, #007CB1 101.72%);
+  background: linear-gradient(76.59deg, #84D3F4 1.49%, #007CB1 101.72%);
   margin: 0 auto !important;
   border-radius: 100px 10px 100px 10px;
 }
@@ -246,4 +246,58 @@
 
 .patien-content h3 span {
   color: var(--stabilo);
+}
+
+
+/* Responsive  */
+/* Mobile */
+@media screen and (max-width: 425px) {
+  .bg-banner {
+    display: none;
+  }
+
+  .banner-right {
+    padding-left: 0px !important;
+  }
+
+  .banner-right h1{
+    margin-top: 70px;
+    font-size: 16px;
+    color: black;
+  }
+
+  .banner-right p {
+    color: black;
+    word-spacing: 4px;
+    margin: 20px 0 !important;
+    margin-bottom: 80px !important;
+    padding-right: 110px !important;
+  }
+
+  .left-head-service {
+    width: 100%;
+    position: relative;
+  }
+
+  .patien-content h3 {
+    width: 100%;
+    font-size: 28px !important;
+    font-weight: bold;
+    margin: 0px auto 60px auto !important;
+    position: relative;
+  }
+
+  .about-wrap {
+    width: 100%;
+  }
+
+  .about-left h2 {
+    font-size: 24px;
+  }
+
+  
+  .about-right p {
+    font-size: 12px;
+  }
+
 }
