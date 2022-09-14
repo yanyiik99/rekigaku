@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    /* ===== Colors ===== */
+    --primary-color: #0E4BF1;
+    --panel-color: #FFF;
+    --text-color: #000;
+    --text-navbar: #262626;
+    --black-light-color: #707070;
+    --border-color: #e6e5e5;
+    --toggle-color: #D9D9D9;
+
+    --toggle-circle: #6484AA;
+    --navside-color: #3786E5;
+    --light-blue: #F4F9FF;
+    --light-green: #5AE2BB;
+    --red-fire: #FF4E4E;
+    --white-navbar: #ffffff;
+    --box1-shadow: #5fa4f29f;
+    
+    --stabilo: #03FFB6;
+    --card-stabilo: #8AD8FA;
+
+
+    /* ====== Transition ====== */
+    --tran-05: all 0.5s ease;
+    --tran-03: all 0.3s ease;
+    --tran-03: all 0.2s ease;
+}
+
+.navbar {
+  background-color: #36A0CE;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: var(--panel-color);
+}
+
+.bg-banner {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 60%;
+  height: 92vh;
+  background: linear-gradient(234.84deg, #007CB1 4.17%, #90DEFF 98.37%);
+  z-index: -1;
+  border-radius: 0 0 0 50px;
+}
+
+
+.banner-right {
+  padding-left: 5.5rem !important;
+}
+
+.banner-right h1{
+  word-spacing: 10px;
+}
+
+.banner-right h1 span {
+  color: var(--stabilo);
+}
+
+
+.banner-right p {
+  word-spacing: 4px;
+  margin: 20px 0 !important;
+  margin-bottom: 80px !important;
+  padding-right: 110px !important;
+}
+
+.btn-get {
+  width: 100%;
+  height: auto;
+}
+
+.btn-get button a {
+  height: auto;
+  padding: 1.2rem 2.5rem !important;
+  background-color: white !important;
+  border-radius: 1000px 0px 1000px 1000px;
+  color: var(--navside-color);
+  box-shadow: -5px 10px 50px rgba(0, 0, 0, 0.15);
+}
+
+.btn-get button a:hover {
+  color: var(--light-green);
+}
+
+.btn-service {
+  width: 100%;
+  height: auto;
+}
+
+.btn-service button a {
+  height: auto;
+  padding: 1.2rem 2.5rem !important;
+  background-color: var(--toggle-circle) !important;
+  border-radius: 1000px 0px 1000px 1000px;
+  color: var(--panel-color);
+  box-shadow: -5px 10px 50px rgba(0, 0, 0, 0.15);
+}
+
+.btn-service button a:hover {
+  color: var(--light-blue);
+}
+
+
+#rs {
+  margin: 100px 0;
+}
+
+
+.swiper {
+  width: 90%;
+  height: 300px;
+}
+
+
+.left-head-service {
+  width: 40%;
+  position: relative;
+}
+
+.left-head-service::after {
+  content: "";
+  width: 100px;
+  height: 60px;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  background-color: #BBE6F9;
+  z-index: -1;
+}
+
+.left-head-service h3 {
+  word-spacing: 2px;
+}
+
+.card-schedule {
+  border: 1px solid var(--border-color) !important;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 50px rgba(0, 102, 255, 0.15);
+}
+
+.card-icon {
+  width: 33%;
+  height: 50%;
+  margin: 35px 0 0 20px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--toggle-color);
+  border-radius: 1000px;
+}
+
+.card-title {
+  font-size: 20px ;
+}
+
+.card-text {
+  font-size: 14px;
+  color: var(--toggle-color);
+}
+
+
+.card-more {
+  font-size: 14px;
+  color: var(--navside-color) !important;
+  font-weight: 600;
+}
+
+
+.card-riwayatku {
+  background-color: var(--card-stabilo);
+}
+
+
+.card-riwayatku .card-icon {
+  background-color: var(--panel-color);
+}
+
+.card-riwayatku .card-icon i {
+  color: var(--toggle-circle) !important;
+}
+
+.card-riwayatku .card-body {
+  color: var(--panel-color) !important;
+}
+
+.card-riwayatku .card-text{
+  color: var(--panel-color);
+}
+
+.about-wrap {
+  width: 80%;
+  height: 400px;
+ background: linear-gradient(76.59deg, #84D3F4 1.49%, #007CB1 101.72%);
+  margin: 0 auto !important;
+  border-radius: 100px 10px 100px 10px;
+}
+
+.about-left h2 {
+  font-size: 40px;
+  color: var(--panel-color);
+  font-weight: 600;
+}
+
+.about-right p {
+  font-size: 18px;
+  color: var(--panel-color);
+}
+
+.one p {
+  color: var(--black-light-color);
+
+}
+
+.patien-content h3 {
+  width: 30%;
+  font-size: 28px !important;
+  font-weight: bold;
+  margin: 0px auto 60px auto !important;
+  position: relative;
+}
+
+.patien-content h3::after {
+  content: "";
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  background-color: #BBE6F9;
+  z-index: -1;
+}
+
+.patien-content h3 span {
+  color: var(--stabilo);
+}

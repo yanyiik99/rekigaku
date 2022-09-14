@@ -1,0 +1,55 @@
+#login {
+  height: 100%;
+}
+
+.banner-bg {
+  height: 100%;
+  /* background-color: #99C2FF !important; */
+  background: linear-gradient(153.28deg, #99C2FF 19.21%, #29EBC9 97.27%) !important;
+}
+
+.swiper {
+  width: 90%;
+  height: auto;
+  /* background-color: blueviolet; */
+  cursor: default;
+}
+
+.swiper-slide {
+  padding: 10px;
+}
+
+.swiper-bg {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.form-control {
+  border-radius: 3px !important;
+  border: none;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.form-control:focus {
+    box-shadow: 0 1px 6px -2px #42A5F5 !important;
+    border-bottom: 4px solid #2196F3 !important;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: rgb(255, 255, 255) !important;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet {
+  background-color: rgb(80, 80, 80) !important;
+  opacity: 1;
+}
+
+.lupa-pw {
+  font-size: 12px;
+}

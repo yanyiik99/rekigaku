@@ -1,0 +1,51 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+/* DM SANS */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#signup {
+  font-family: 'Poppins', sans-serif;
+}
+
+#dashboard-wrap {
+  font-family: 'DM Sans', sans-serif;
+}
+
+a,
+a:visited,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+  outline: 0 !important;
+}
+
+a {
+  color: currentColor;
+  transition: .2s ease-in-out;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+button,
+button:focus,
+button:hover {
+  border: 0 ;
+  background-color: transparent ;
+}
+
